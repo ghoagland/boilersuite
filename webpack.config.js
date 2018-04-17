@@ -28,6 +28,6 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.webpack.js', '.web.js', '.js', '.json', '.jsx'],
-  },
+    extensions: ['.js', '.jsx', '.json'],
+  }
 };
