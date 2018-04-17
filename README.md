@@ -21,3 +21,5 @@ To run:
   1. `npm run start-dev` will bundle your code and start serving up a small React app on port 8080.
 
 In future, the goal is to have branches with various libraries and functionalities added in: Sequelize for database interaction, Redux for front-end state management, OAuth, and WebSockets to name a few. This is not there yet! The main goal is to have a boilerplate that can be combined to have multiple other features.
+
+This boilerplate is very much influenced by the Fullstack boilerplate, [boilermaker](https://github.com/fullstackacademy/boilermaker)
