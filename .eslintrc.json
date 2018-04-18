@@ -2,10 +2,14 @@
   "extends": [
     "airbnb",
     "prettier",
-    "prettier/react"
+    "prettier/react",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended"
   ],
   "plugins": [
-    "prettier"
+    "prettier",
+    "jsx-a11y",
+    "react"
   ],
   "parserOptions": {
     "ecmaVersion": 2017,
@@ -20,6 +24,7 @@
     "node": true
   },
   "rules": {
+    "spaced-comment" : "warn",
     "prettier/prettier": [
       "error",
       {
