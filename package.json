@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
     "start-dev": "webpack -w & nodemon server",
-    "lint": "eslint **/*.{js,jsx} --quiet",
-    "lint-warnings": "eslint **/*.{js,jsx}"
+    "lint": "eslint . --ext .js,.jsx --quiet",
+    "lint-warnings": "eslint . --ext .js,.jsx"
   },
   "author": "Georgina Hoagland",
   "license": "ISC",
