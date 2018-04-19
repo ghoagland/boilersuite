@@ -40,6 +40,7 @@
     "prettier": "1.12.1",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.20.3",
+    "stylelint": "^9.2.0",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14"
   }
