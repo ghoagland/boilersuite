@@ -8,8 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
     "start-dev": "webpack -w & nodemon server",
-    "lint": "eslint . --ext .js,.jsx --quiet",
-    "lint-warnings": "eslint . --ext .js,.jsx"
+    "lint-script": "eslint . --ext .js,.jsx --quiet; exit 0",
+    "lint-warnings": "eslint . --ext .js,.jsx",
+    "lint-style": "stylelint \"./**/*.{scss,css}\"; exit 0",
+    "lint":"npm run lint-script && npm run lint-style"
   },
   "author": "Georgina Hoagland",
   "license": "ISC",
@@ -41,6 +43,7 @@
     "sass-loader": "^7.0.1",
     "style-loader": "^0.20.3",
     "stylelint": "^9.2.0",
+    "stylelint-config-standard": "^18.2.0",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14"
   }
