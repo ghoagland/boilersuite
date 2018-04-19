@@ -20,7 +20,10 @@ This is very much a work in progress.
   
 
 ### To lint: 
-  `npm run lint` will list all errors. `npm run lint-warning` will list both errors and warnings such as `console` statements.
+  * `npm run lint-script` lists JavaScript errors.
+  * `npm run lint-script-warnings` is the same as above but includes warnings such as `console` statements.
+  * `npm run lint-style` will lint just the CSS and SCSS files.
+  * `npm run lint` combines `npm run lint-script` and `npm run lint-style`.
   
 
 In future, the goal is to have branches with various libraries and functionalities added in: Sequelize for database interaction, Redux for front-end state management, OAuth, and WebSockets to name a few. This is not there yet! The main goal is to have a boilerplate that can be combined to have multiple other features.
