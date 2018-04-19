@@ -9,7 +9,7 @@
     "start": "node server",
     "start-dev": "webpack -w & nodemon server",
     "lint-script": "eslint . --ext .js,.jsx --quiet; exit 0",
-    "lint-warnings": "eslint . --ext .js,.jsx",
+    "lint-script-warning": "eslint . --ext .js,.jsx",
     "lint-style": "stylelint \"./**/*.{scss,css}\"; exit 0",
     "lint":"npm run lint-script && npm run lint-style"
   },
